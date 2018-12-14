@@ -1,0 +1,62 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container.card.ym{
+    margin-top: 10%;
+}
+
+
+.container.card.ym>.row.ym>.col-lg-6.ym>.container-fluid.ym{
+    margin-top: 5%;
+}
+
+.container.card.ym>.row.ym>.col-lg-6.ym>.container-fluid.ym>.row.ym{
+    margin-top: 65px;
+}
+
+
+.container.card.ym>.row.ym>.col-lg-6.ym>.container-fluid.ym>.line.ym{
+    width: 45px;
+    height: 3px;
+    background: blue;
+}
+
+
+.container.card.ym>.row.ym>.col-lg-6.ym>.container-fluid.ym>h1>a:hover{
+    text-decoration-line: none;
+    color: brown;
+}
+
+.col-lg-9.ym.read-more.ym>a{
+    text-decoration-line: none;
+    color: blue;
+}
+
+.col-lg-9.ym.read-more.ym>a:hover{
+    text-decoration-line: none;
+    color: brown;
+    padding-left: 2px;
+}
+
+
+.container.ym.card.ym>.row.ym>.col-lg-6.ym>.container-fluid.ym>.row.ym>.col-lg-9.ym>a>span.glyphicon.glyphicon-arrow-right:hover{
+    color: brown;
+    padding-left: 4px;
+}
+
+.col-lg-3.ym.view.ym>a>span.glyphicon.glyphicon-eye-open{
+    color: blue;
+}
+
+.col-lg-3.ym.view.ym>a>span.glyphicon.glyphicon-eye-open:hover{
+    color: brown;
+}
